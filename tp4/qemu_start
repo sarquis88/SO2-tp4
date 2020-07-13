@@ -1,0 +1,1 @@
+qemu-system-arm --serial stdio -machine lm3s811evb -cpu cortex-m3 -semihosting-config enable=on,target=native -kernel gcc/RTOSDemo.axf
